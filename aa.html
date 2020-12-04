@@ -7,30 +7,8 @@
 <body>
 <script>
   var fullname = 'John Doe';
-  var obj = {
-    fullname: 'Colin Ihrig',
-    prop: {
-      fullname: 'Aurelio De Rosa',
-      getFullname: function() {
-        console.log('this',this)
-        return this.fullname;
-      }
-    }
-  };
-  console.log(obj.prop.getFullname());
 
-  function scopeFUn() {
-    for (var i = 0;i<2;i++) {
-      var a= 0
-      let b = 1
-    }
-    for (var i = 0;i<2;i++) {
-      console.log('a',a)
-      console.log('b',b)
-
-    }
-  }
-  scopeFUn()
+  
 </script>
 </body>
 </html>
